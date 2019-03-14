@@ -63,6 +63,7 @@ while (!feof($handle)) {
 	}
 }
 
+fclose($handle);
 print "Ended\n";
 
 /**
